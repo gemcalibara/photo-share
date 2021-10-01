@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  react-app:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./src:/app/src
+    env_file:
+      - ./.env
+    
+  node-api:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./src/do-not-refactor:/app/src/do-not-refactor
+    command: node /app/src/do-not-refactor/server.js
