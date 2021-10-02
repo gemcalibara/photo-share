@@ -12,19 +12,19 @@
 * Docker
 
 
-## To start or run a docker:
+## To start or run a docker container:
 
-### `docker-compose up -d`
+`docker-compose up -d`
 
 
-## To stop a docker:
+## To stop a docker container:
 
-### `docker-compose down`
+`docker-compose down`
 
 
 ## To open the Photo Share App
 
-Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+Once the container is up and ready, open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
-Note: Wait for 1-2 minutes to load the photo share fully.
+Note: Wait for about 1 minute or less to load or refresh the photo share app fully.
 
